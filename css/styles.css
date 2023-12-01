@@ -91,3 +91,17 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.img {
+  background-color: #f4f4fd;
+}
+.caption-img {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.list-img {
+  background-color: #ffffff;
+}
