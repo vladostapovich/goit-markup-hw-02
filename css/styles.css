@@ -30,27 +30,23 @@ body {
   color: #2e2f42;
 }
 
-.menu :hover {
+.nav:hover,
+.nav:focus {
   color: #404bbf;
 }
-.menu :focus {
-  color: #404bbf;
-}
+
 .contact {
   font-style: normal;
 }
-.contact-link {
+.contact-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.contact-item :hover {
-  color: #404bbf;
-}
-
-.contact-item :focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 
@@ -74,8 +70,8 @@ body {
   color: #ffffff;
   cursor: pointer;
 }
-.button :hover,
-.button :focus {
+.button:hover,
+.button:focus {
   background-color: #404bbf;
 }
 
